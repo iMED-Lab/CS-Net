@@ -66,8 +66,16 @@ class Decoder(nn.Module):
 class SpatialAttentionBlock(nn.Module):
     def __init__(self, in_channels):
         super(SpatialAttentionBlock, self).__init__()
-        self.query = nn.Conv2d(in_channels, in_channels // 8, kernel_size=(1, 3), padding=(0, 1))
-        self.key = nn.Conv2d(in_channels, in_channels // 8, kernel_size=(3, 1), padding=(1, 0))
+        self.query = nn.Sequential(
+            nn.Conv2d(in_channels,in_channels//8,kernel_size=(1,3), padding=(0,1)),
+            nn.BatchNorm2d(in_channels//8),
+            nn.ReLU(inplace=True)
+        )
+        self.key = nn.Sequential(
+            nn.Conv2d(in_channels, in_channels//8, kernel_size=(3,1), padding=(1,0)),
+            nn.BatchNorm2d(in_channels//8),
+            nn.ReLU(inplace=True)
+        )
         self.value = nn.Conv2d(in_channels, in_channels, kernel_size=1)
         self.gamma = nn.Parameter(torch.zeros(1))
         self.softmax = nn.Softmax(dim=-1)
