@@ -1,4 +1,4 @@
-# I	CS-Net: Channel and Spatial Attention Network for Curvilinear Structure Segmentation
+# I-0	CS-Net: Channel and Spatial Attention Network for Curvilinear Structure Segmentation
 
 This repo is the official implementation of [CS-Net: Channel and Spatial Attention Network for Curvilinear Structure Segmentation](https://link.springer.com/chapter/10.1007/978-3-030-32239-7_80).
 
@@ -39,7 +39,7 @@ The main contribution of this work is the publication of two scarce datasets in 
 
 ## I-2	Usage:
 
-Use the ```train.py``` and ```predict.py``` to train and test the model on your own dataset, respectively.
+Using the ```train.py``` and ```predict.py``` to train and test the model on your own dataset, respectively.
 
 ## I-3	Requirements:
 
@@ -66,25 +66,25 @@ The attention module was implemented based on [DANet](https://github.com/junfu11
 
 
 
-# II	CS$^2$-Net: Deep Learning Segmentation of Curvilinear Structures in Medical Imaging
+# II-0	CS$^2$-Net: Deep Learning Segmentation of Curvilinear Structures in Medical Imaging
 
 The extension of the 2D CS-Net
 
-<img src="http://ww1.sinaimg.cn/large/005CmS3Mly1gjpsnhr4gyj31900to7el.jpg" alt="iShot2020-10-15 10.07.46.png" style="zoom:40%;" />
+<img src="http://ww1.sinaimg.cn/mw690/005CmS3Mly1gjs6yal0ybj317m0riguq.jpg" alt="iShot2020-10-17 11.52.52.png" style="zoom:67%;" />
 
 ## II-1	3D Volume Segmentation Results
 
 #### II-1.1	MRA Brain Vessel
 
-<img src="http://ww1.sinaimg.cn/large/005CmS3Mly1gjpsreqltmj30ni0a8gs6.jpg" alt="iShot2020-10-15 10.13.00.png" style="zoom:80%;" />
+<img src="http://ww1.sinaimg.cn/mw690/005CmS3Mly1gjs70hzit6j30ni0a8gs6.jpg" alt="iShot2020-10-15 10.13.00.png" style="zoom:67%;" />
 
 #### II-1.2	Synthetic & VascuSynth
 
-<img src="http://ww1.sinaimg.cn/mw690/005CmS3Mly1gjpst76lklj30ne0iiwsm.jpg" alt="iShot2020-10-15 10.14.38.png" style="zoom:80%;" />
+<img src="http://ww1.sinaimg.cn/mw690/005CmS3Mly1gjs70ynf05j30ne0iiwsm.jpg" alt="iShot2020-10-15 10.14.38.png" style="zoom:67%;" />
 
 ## II-2	Usage:
 
-```train3d.py``` to train the 3D segmentation network.
+```train3d.py``` is used to train the 3D segmentation network.
 
 ```predict3d.py``` is used to test the trained model.
 
@@ -97,13 +97,14 @@ Requirements:
 - PyTorch = 0.4.1
 - visdom
 - SimpleITK: 
-  - ```pip install SimpleITK```
+
+  > ```pip install SimpleITK```
 
 
 
 ### II-3	Citation
 
-...
+Coming soon
 
 ## III	Dataset Links:
 
