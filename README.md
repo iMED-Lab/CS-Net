@@ -104,7 +104,16 @@ Requirements:
 
 ### II-3	Citation
 
-Coming soon
+> ```
+> @article{mou2020cs2,
+>   title={CS2-Net: Deep Learning Segmentation of Curvilinear Structures in Medical Imaging},
+>   author={Mou, Lei and Zhao, Yitian and Fu, Huazhu and Liux, Yonghuai and Cheng, Jun and Zheng, Yalin and Su, Pan and Yang, Jianlong and Chen, Li and Frangi, Alejandro F and others},
+>   journal={Medical Image Analysis},
+>   pages={101874},
+>   year={2020},
+>   publisher={Elsevier}
+> }
+> ```
 
 ## III	Dataset Links:
 
