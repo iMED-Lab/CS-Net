@@ -70,17 +70,20 @@ The attention module was implemented based on [DANet](https://github.com/junfu11
 
 The extension of the 2D CS-Net
 
-<div align=center><img src="http://ww1.sinaimg.cn/large/005CmS3Mly1gk9zy0quvwj319g0ridpg.jpg"/>
+<img src="http://ww1.sinaimg.cn/large/005CmS3Mly1gk9zy0quvwj319g0ridpg.jpg" width =300 align=center/>
+
 
 ## II-1	3D Volume Segmentation Results
 
-#### II-1.1	MRA Brain Vessel
+#### II-1.1	MRA Brain Vessel 
 
-<div align=center><img src="http://ww1.sinaimg.cn/large/005CmS3Mly1gka00rmmqgj31i60mu1kx.jpg"/>
+<img src="http://ww1.sinaimg.cn/large/005CmS3Mly1gka00rmmqgj31i60mu1kx.jpg" width =300 align=center/>
+
 
 #### II-1.2	Synthetic & VascuSynth
 
-<div align=center><img src="http://ww1.sinaimg.cn/large/005CmS3Mly1gka01tpjvzj30xu0r2b1l.jpg"/>
+<img src="http://ww1.sinaimg.cn/large/005CmS3Mly1gka01tpjvzj30xu0r2b1l.jpg" width =300 align=center/>
+
 
 ## II-2	Usage:
 
