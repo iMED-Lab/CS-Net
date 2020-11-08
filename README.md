@@ -122,11 +122,11 @@ Requirements:
 
 The original comparison results in Table 8 on page 14 are:
 
-<img src="http://ww1.sinaimg.cn/mw690/005CmS3Mly1gki44l3iojj30n205s759.jpg"/>
+<img src="http://ww1.sinaimg.cn/mw690/005CmS3Mly1gki44l3iojj30n205s759.jpg" width =350 align=center/>
 
 The corrected comparison result are:
 
-<img src="http://ww1.sinaimg.cn/mw690/005CmS3Mly1gki47buiedj30os05u75k.jpg"/>
+<img src="http://ww1.sinaimg.cn/mw690/005CmS3Mly1gki47buiedj30os05u75k.jpg" width =350 align=center/>
 
 
 
