@@ -118,6 +118,18 @@ Requirements:
 > }
 > ```
 
+#### II-4	Correction to: CS2-Net- Deep learning segmentation of curvilinear structures in medical imaging
+
+The original comparison results in Table 8 on page 14 are:
+
+<img src="http://ww1.sinaimg.cn/mw690/005CmS3Mly1gki44l3iojj30n205s759.jpg"/>
+
+The corrected comparison result are:
+
+<img src="http://ww1.sinaimg.cn/mw690/005CmS3Mly1gki47buiedj30os05u75k.jpg"/>
+
+
+
 ## III	Dataset Links:
 
 | DRIVE          | http://www.isi.uu.nl/Research/Databases/DRIVE/              |
@@ -127,3 +139,4 @@ Requirements:
 | **ToF MIDAS**  | **http://insight-journal.org/midas/community/view/21**      |
 | **Synthetic**  | **https://github.com/giesekow/deepvesselnet/wiki/Datasets** |
 | **VascuSynth** | **http://vascusynth.cs.sfu.ca/Data.html**                   |
+
