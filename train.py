@@ -12,6 +12,7 @@ from model.csnet import CSNet
 from dataloader.drive import Data
 from utils.train_metrics import metrics
 from utils.visualize import init_visdom_line, update_lines
+from utils.dice_loss_single_class import dice_coeff_loss
 
 # os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
@@ -72,7 +73,9 @@ def train():
             optimizer.zero_grad()
             pred = net(image)
             # pred = pred.squeeze_(1)
-            loss = critrion(pred, label)
+            loss1 = critrion(pred, label)
+            loss2 = dice_coeff_loss(pred, label)
+            loss = loss1 + loss2
             loss.backward()
             optimizer.step()
             acc, sen = metrics(pred, label, pred.shape[0])
