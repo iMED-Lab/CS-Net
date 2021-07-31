@@ -49,7 +49,7 @@ Using the ```train.py``` and ```predict.py``` to train and test the model on you
 - visdom
 - sklearn
 
-The attention module was implemented based on [DANet](https://github.com/junfu1115/DANet). The difference between the proposed module and the original block is that  we added a new 1x3 and 3x1 kernel convolution layer into spatial attention module. Plese refer to the paper for details.
+The attention module was implemented based on [DANet](https://github.com/junfu1115/DANet). The difference between the proposed module and the original block is that  we added a new ![](http://latex.codecogs.com/svg.latex?1\times 3) and ![](http://latex.codecogs.com/svg.latex?3\times 1) kernel convolution layer into spatial attention module. Plese refer to the paper for details.
 
 ## Citation
 
@@ -68,9 +68,9 @@ The attention module was implemented based on [DANet](https://github.com/junfu11
 
 ---
 
-# CS$^2$-Net: Deep Learning Segmentation of Curvilinear Structures in Medical Imaging
+# CS2​-Net: Deep Learning Segmentation of Curvilinear Structures in Medical Imaging
 
-The extension of the 2D CS-Net: [CS$^2$-Net](https://www.sciencedirect.com/science/article/pii/S1361841520302383)
+The extension of the 2D CS-Net: [CS2​-Net](https://www.sciencedirect.com/science/article/pii/S1361841520302383)
 
 <img src="http://ww1.sinaimg.cn/large/005CmS3Mly1gk9zy0quvwj319g0ridpg.jpg" width =300 align=center/>
 
