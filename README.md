@@ -1,4 +1,4 @@
-# I-0	CS-Net: Channel and Spatial Attention Network for Curvilinear Structure Segmentation
+# CS-Net: Channel and Spatial Attention Network for Curvilinear Structure Segmentation
 
 This repo is the official implementation of [CS-Net: Channel and Spatial Attention Network for Curvilinear Structure Segmentation](https://link.springer.com/chapter/10.1007/978-3-030-32239-7_80).
 
@@ -12,9 +12,9 @@ The main contribution of this work is the publication of two scarce datasets in 
 
 [![](https://img.shields.io/badge/Download-CORN--1-green)](http://www.imed-lab.com/?p=16073) 
 
-## I-1	Experiment Results
+## Experiment Results
 
-#### I-1.1	Vessel Segmentation on Fundus
+#### 1. Vessel Segmentation on Fundus
 
 <center>
   <img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g82f22kgj6j315t0lv1f7.jpg" height="65%" width="65%"/>
@@ -22,7 +22,7 @@ The main contribution of this work is the publication of two scarce datasets in 
 
 
 
-#### I-1.2	Vessel Segmentation on OCT-A images
+#### 2. Vessel Segmentation on OCT-A images
 
 <center>
   <img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g82f2qvdw5j31ew0brke8.jpg" height="65%" width="65%" />
@@ -30,18 +30,18 @@ The main contribution of this work is the publication of two scarce datasets in 
 
 
 
-#### I-1.3	Nerve fibre tracing on CCM
+#### 3. Nerve fibre tracing on CCM
 
 <center>
   <img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g82f39bqm7j31g70lxqnb.jpg" height="65%" width="65%"/>
 </center>
 
 
-## I-2	Usage:
+## Usage:
 
 Using the ```train.py``` and ```predict.py``` to train and test the model on your own dataset, respectively.
 
-## I-3	Requirements:
+## Requirements:
 
 - PyTorch >= 0.4.1
 - tqdm
@@ -51,7 +51,7 @@ Using the ```train.py``` and ```predict.py``` to train and test the model on you
 
 The attention module was implemented based on [DANet](https://github.com/junfu1115/DANet). The difference between the proposed module and the original block is that  we added a new 1x3 and 3x1 kernel convolution layer into spatial attention module. Plese refer to the paper for details.
 
-#### I-4	Citation
+## Citation
 
 ```
 @inproceedings{mou2019cs,
@@ -66,26 +66,28 @@ The attention module was implemented based on [DANet](https://github.com/junfu11
 
 
 
-# II-0	CS$^2$-Net: Deep Learning Segmentation of Curvilinear Structures in Medical Imaging
+---
 
-The extension of the 2D CS-Net
+# CS$^2$-Net: Deep Learning Segmentation of Curvilinear Structures in Medical Imaging
+
+The extension of the 2D CS-Net: [CS$^2$-Net](https://www.sciencedirect.com/science/article/pii/S1361841520302383)
 
 <img src="http://ww1.sinaimg.cn/large/005CmS3Mly1gk9zy0quvwj319g0ridpg.jpg" width =300 align=center/>
 
 
-## II-1	3D Volume Segmentation Results
+## 3D Volume Segmentation Results
 
-#### II-1.1	MRA Brain Vessel 
+#### 1 MRA Brain Vessel 
 
 <img src="http://ww1.sinaimg.cn/large/005CmS3Mly1gka00rmmqgj31i60mu1kx.jpg" width =300 align=center/>
 
 
-#### II-1.2	Synthetic & VascuSynth
+#### 2 Synthetic & VascuSynth
 
 <img src="http://ww1.sinaimg.cn/large/005CmS3Mly1gka01tpjvzj30xu0r2b1l.jpg" width =300 align=center/>
 
 
-## II-2	Usage:
+## Usage:
 
 ```train3d.py``` is used to train the 3D segmentation network.
 
@@ -93,9 +95,7 @@ The extension of the 2D CS-Net
 
 Please note that you should change the dataloader definition in ```train3d.py```.
 
-### II-2.1
-
-Requirements:
+## Requirements:
 
 - PyTorch = 0.4.1
 - visdom
@@ -105,7 +105,7 @@ Requirements:
 
 
 
-### II-3	Citation
+### Citation
 
 > ```
 > @article{mou2020cs2,
@@ -118,7 +118,7 @@ Requirements:
 > }
 > ```
 
-#### II-4	Correction to: CS2-Net- Deep learning segmentation of curvilinear structures in medical imaging
+#### Correction to: CS2-Net- Deep learning segmentation of curvilinear structures in medical imaging
 
 The original comparison results in Table 8 on page 14 are:
 
@@ -130,7 +130,7 @@ The corrected comparison results are:
 
 
 
-## III	Dataset Links:
+## Dataset Links:
 
 | DRIVE          | http://www.isi.uu.nl/Research/Databases/DRIVE/              |
 | :------------- | :---------------------------------------------------------- |
