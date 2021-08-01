@@ -1,8 +1,5 @@
 
 
-<center>
-  <img src="http://ww1.sinaimg.cn/large/005CmS3Mgy1gt1du2q621j609a02wq3d02.jpg" 
-</center>
 
 # CS-Net: Channel and Spatial Attention Network for Curvilinear Structure Segmentation
 
