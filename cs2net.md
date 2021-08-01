@@ -16,7 +16,7 @@ Implementation of [CS2-Net MedIA 2020](https://www.sciencedirect.com/science/art
 
 ## Requirements
 
-![](https://img.shields.io/badge/PyTorch-0.4.1-orange)![](https://img.shields.io/badge/visdom-0.2.0-orange)![](https://img.shields.io/badge/SimpleITK-latest-orange)
+![](https://img.shields.io/badge/PyTorch-0.4.1-orange)  ![](https://img.shields.io/badge/visdom-0.2.0-orange)  ![](https://img.shields.io/badge/SimpleITK-latest-orange)    
 
 ## Get Started
 
