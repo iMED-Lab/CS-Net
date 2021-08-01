@@ -42,14 +42,18 @@ Implementation of [CS2-Net MedIA 2020](https://www.sciencedirect.com/science/art
 
 ## Citation
 
-> @article{mou2020cs2,
-> title={CS2-Net: Deep Learning Segmentation of Curvilinear Structures in Medical Imaging},
-> author={Mou, Lei and Zhao, Yitian and Fu, Huazhu and Liux, Yonghuai and Cheng, Jun and Zheng, Yalin and Su, Pan and Yang, Jianlong and Chen, Li and Frangi, Alejandro F and others},
-> journal={Medical Image Analysis},
-> pages={101874},
-> year={2020},
-> publisher={Elsevier}
-> }
+```
+@article{mou2020cs2,
+title={CS2-Net: Deep Learning Segmentation of Curvilinear Structures in Medical Imaging},
+author={Mou, Lei and Zhao, Yitian and Fu, Huazhu and Liux, Yonghuai and Cheng, Jun and Zheng, Yalin and Su, Pan and Yang, Jianlong and Chen, Li and Frangi, Alejandro F and others},
+journal={Medical Image Analysis},
+pages={101874},
+year={2020},
+publisher={Elsevier}
+}
+```
+
+
 
 #### Corrections to: CS2-Net- Deep learning segmentation of curvilinear structures in medical imaging
 

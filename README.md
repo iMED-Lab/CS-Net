@@ -52,14 +52,18 @@ Using the ```train.py``` and ```predict.py``` to train and test the model on you
 
 ## Citation
 
-> @inproceedings{mou2019cs,
->   title={CS-Net: channel and spatial attention network for curvilinear structure segmentation},
->   author={Mou, Lei and Zhao, Yitian and Chen, Li and Cheng, Jun and Gu, Zaiwang and Hao, Huaying and Qi, Hong and Zheng, Yalin and Frangi, Alejandro and Liu, Jiang},
->   booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
->   pages={721--730},
->   year={2019},
->   organization={Springer}
-> }
+```
+@inproceedings{mou2019cs,
+title={CS-Net: channel and spatial attention network for curvilinear structure segmentation},
+author={Mou, Lei and Zhao, Yitian and Chen, Li and Cheng, Jun and Gu, Zaiwang and Hao, Huaying and Qi, Hong and Zheng, Yalin and Frangi, Alejandro and Liu, Jiang},
+booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+pages={721--730},
+year={2019},
+organization={Springer}
+}
+```
+
+
 
 ## Useful Links
 
