@@ -21,7 +21,7 @@ The main contribution of this work is the publication of two scarce datasets in 
 
 ![](https://img.shields.io/badge/PyTorch-%3E%3D0.4.1-orange)  ![](https://img.shields.io/badge/tqdm-latest-orange)  ![](https://img.shields.io/badge/cv2-latest-orange)  ![](https://img.shields.io/badge/visdom-%3E%3D0.2.0-orange)  ![](https://img.shields.io/badge/sklearn-latest-orange)  
 
-The attention module was implemented based on [DANet](https://github.com/junfu1115/DANet). The difference between the proposed module and the original block is that  we added a new ![](http://latex.codecogs.com/svg.latex?1\times 3) and ![](http://latex.codecogs.com/svg.latex?3\times 1) kernel convolution layer into spatial attention module. Plese refer to the paper for details.
+The attention module was implemented based on [DANet](https://github.com/junfu1115/DANet). The difference between the proposed module and the original block is that  we added a new 1x3 and 3x1 kernel convolution layer into spatial attention module. Plese refer to the paper for details.
 
 ## Get Started
 
