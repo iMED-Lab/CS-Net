@@ -1,6 +1,3 @@
-
-
-
 # CS-Net: Channel and Spatial Attention Network for Curvilinear Structure Segmentation
 
 Implementation of [CS-Net: Channel and Spatial Attention Network for Curvilinear Structure Segmentation](https://link.springer.com/chapter/10.1007/978-3-030-32239-7_80)
@@ -71,4 +68,3 @@ organization={Springer}
 | **ToF MIDAS**  | **http://insight-journal.org/midas/community/view/21**      |
 | **Synthetic**  | **https://github.com/giesekow/deepvesselnet/wiki/Datasets** |
 | **VascuSynth** | **http://vascusynth.cs.sfu.ca/Data.html**                   |
-
