@@ -41,7 +41,7 @@ class ResEncoder3d(nn.Module):
         residual = self.conv1x1(x)
         out = self.relu(self.bn1(self.conv1(x)))
         out = self.relu(self.bn2(self.conv2(out)))
-        out += residual
+        out = out + residual
         out = self.relu(out)
         return out
 
